@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "AirBnB",
+    "slug": "AirBnB",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/fondoAir.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ff5a5f"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4f8eae49-1557-4383-89a7-d95efe63d549"
+      }
+    }
+  }
+}
